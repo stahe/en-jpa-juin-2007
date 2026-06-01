@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -330,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="-jpa-entities.html" class="md-nav__link">
+      <a href="-entities-jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2.  JPA entities
+    2.  entities JPA
   
 
     
@@ -364,7 +366,7 @@
   <span class="md-ellipsis">
     
   
-    3. JPA in a Multi-Layer Architecture
+    3. JPA in a multi-layer architecture
   
 
     
@@ -463,18 +465,18 @@
 <ul>
   <li><span style="color: #000000">data access is controlled by a JPA layer</span>
   </li>
-  <li><span style="color: #000000">the [service] and [DAO] layers run within a Spring or EJB3 container</span>
+  <li><span style="color: #000000">the [service] and [dao] layers run within a Spring or EJB3 container</span>
   </li>
 </ul>
 
 <p><span style="color: #000000">We concluded with an example of a web application bringing all the layers together:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005170000010A57714475.png" width="652" height="133" style="display:inline-block; margin:4px;width:17.238cm;height:3.519cm;" class="odt-zoomable" data-zoom-src="images/10000000000005170000010A57714475.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005170000010A57714475.png" width="652" height="133" style="display:inline-block; margin:4px;width:17.238cm;height:3.519cm;" class="odt-zoomable" data-zoom-src="images/10000000000005170000010A57714475.png" /></td></tr></table>
 
-<p><span style="color: #000000">Although this tutorial is quite long, it is by no means exhaustive:</span></p>
+<p><span style="color: #000000">Although this tutorial is quite comprehensive, it is not exhaustive:</span></p>
 <ul>
-  <li><span style="color: #000000">some JPA topics were not covered (entity caching, translating the concept of object inheritance into a DBMS schema, etc.)</span>
+  <li><span style="color: #000000">some topics have not been covered (entity caching, translating the concept of object inheritance into a SGBD schema, etc.)</span>
   </li>
-  <li><span style="color: #000000">Difficulties were encountered, reported but not resolved, particularly regarding the use of the EJB3 container.</span>
+  <li><span style="color: #000000">difficulties were encountered, reported but not resolved, particularly regarding the use of the EJB3 container.</span>
   </li>
 </ul>
 
